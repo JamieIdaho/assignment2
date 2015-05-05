@@ -1,0 +1,35 @@
+img {
+	border: 2px solid gray;
+}
+
+.octocat img {
+	width: 400px;
+	height: 400px;
+}
+
+.authors img {
+	width: 25px;
+	height: 25px;
+}
+
+ul {
+	list-style: none;
+}
+
+.image-caption {
+	font-style: Tahoma, sans-serif;
+	font-weight: bold;
+	color: gray;
+
+
+}
+
+.image-number {
+	color: gray;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

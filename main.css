@@ -4,7 +4,7 @@ img {
 }
 
 .octocat img {
-	width: 445px;
+	width: 352px;
 	
 	border-radius: 5px;
 	}
@@ -13,16 +13,18 @@ img {
 	width: 25px;
 	height: 25px;
 	border: none;
-}
+	}
 
 ul {
 	list-style: none;
 }
 
 .image-caption {
-	font-style: Tahoma, sans-serif;
+	font-family: Tahoma, sans-serif;
 	font-weight: bold;
 	color: #CFCFCF;
+	float: right;
+	margin-top: 5px;
 
 
 }
@@ -30,6 +32,7 @@ ul {
 .image-number {
 	color: gray;
 	font-weight: bold;
+	font-family: Tahoma, sans-serif;
 }
 
 a {
@@ -41,9 +44,7 @@ a {
 	content: "#";
 }
 
-.octodeck {
-	position: relative;
-}
+
 
 .image-caption {
 	display: inline;
@@ -51,4 +52,10 @@ a {
 
 .octocat {
 	float: left;
+	margin: 10px;
+}
+
+.authors {
+	display: inline;
+	float: right;
 }

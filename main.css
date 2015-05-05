@@ -1,16 +1,18 @@
 img {
-	border: 2px solid gray;
+	border: 1px solid #CFCFCF;
+
 }
 
 .octocat img {
-	width: 400px;
-	height: 400px;
+	width: 445px;
+	
 	border-radius: 5px;
-}
+	}
 
 .authors img {
 	width: 25px;
 	height: 25px;
+	border: none;
 }
 
 ul {
@@ -20,7 +22,7 @@ ul {
 .image-caption {
 	font-style: Tahoma, sans-serif;
 	font-weight: bold;
-	color: gray;
+	color: #CFCFCF;
 
 
 }
@@ -37,4 +39,16 @@ a {
 
 .image-number:before {
 	content: "#";
+}
+
+.octodeck {
+	position: relative;
+}
+
+.image-caption {
+	display: inline;
+}
+
+.octocat {
+	float: left;
 }
